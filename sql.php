@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 define('HOST','localhost');
 define('USER', 'root');
 define('PASS', '');
-define('DB','dev_ecom');
+define('DB','');
 class mainGuy {
 	private static $_conn;	
 	public function iConnect($db='',$create = false){
